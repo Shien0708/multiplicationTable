@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640CA84327B6744E004BA167 /* ChooseLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640CA84227B6744E004BA167 /* ChooseLevelViewController.swift */; };
+		6410D54727B3D048009C5D4D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6410D54627B3D048009C5D4D /* Question.swift */; };
+		6413CCF527BB762500CB4D40 /* ChoosePlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413CCF427BB762500CB4D40 /* ChoosePlayersViewController.swift */; };
 		64342AF027B3802200763950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64342AEF27B3802200763950 /* AppDelegate.swift */; };
 		64342AF227B3802200763950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64342AF127B3802200763950 /* SceneDelegate.swift */; };
 		64342AF427B3802200763950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64342AF327B3802200763950 /* ViewController.swift */; };
 		64342AF727B3802200763950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64342AF527B3802200763950 /* Main.storyboard */; };
 		64342AF927B3802300763950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64342AF827B3802300763950 /* Assets.xcassets */; };
 		64342AFC27B3802300763950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64342AFA27B3802300763950 /* LaunchScreen.storyboard */; };
+		64342B0427B3887B00763950 /* MemoryGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64342B0327B3887B00763950 /* MemoryGameViewController.swift */; };
+		64681DAE27BA565200274ED4 /* HammerGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64681DAD27BA565200274ED4 /* HammerGameViewController.swift */; };
+		646E1E8F27B52EBB007237A0 /* MultiplicationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1E8E27B52EBB007237A0 /* MultiplicationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640CA84227B6744E004BA167 /* ChooseLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLevelViewController.swift; sourceTree = "<group>"; };
+		6410D54627B3D048009C5D4D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6413CCF427BB762500CB4D40 /* ChoosePlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlayersViewController.swift; sourceTree = "<group>"; };
 		64342AEC27B3802200763950 /* multiplicationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiplicationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64342AEF27B3802200763950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64342AF127B3802200763950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		64342AF827B3802300763950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64342AFB27B3802300763950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64342AFD27B3802300763950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64342B0327B3887B00763950 /* MemoryGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewController.swift; sourceTree = "<group>"; };
+		64681DAD27BA565200274ED4 /* HammerGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammerGameViewController.swift; sourceTree = "<group>"; };
+		646E1E8E27B52EBB007237A0 /* MultiplicationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 		64342AE327B3802200763950 = {
 			isa = PBXGroup;
 			children = (
+				6413CCF427BB762500CB4D40 /* ChoosePlayersViewController.swift */,
+				6410D54627B3D048009C5D4D /* Question.swift */,
 				64342AEE27B3802200763950 /* multiplicationTable */,
 				64342AED27B3802200763950 /* Products */,
 			);
@@ -60,6 +74,10 @@
 				64342AF127B3802200763950 /* SceneDelegate.swift */,
 				64342AF327B3802200763950 /* ViewController.swift */,
 				64342AF527B3802200763950 /* Main.storyboard */,
+				64681DAD27BA565200274ED4 /* HammerGameViewController.swift */,
+				640CA84227B6744E004BA167 /* ChooseLevelViewController.swift */,
+				646E1E8E27B52EBB007237A0 /* MultiplicationTableViewController.swift */,
+				64342B0327B3887B00763950 /* MemoryGameViewController.swift */,
 				64342AF827B3802300763950 /* Assets.xcassets */,
 				64342AFA27B3802300763950 /* LaunchScreen.storyboard */,
 				64342AFD27B3802300763950 /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6410D54727B3D048009C5D4D /* Question.swift in Sources */,
 				64342AF427B3802200763950 /* ViewController.swift in Sources */,
+				64681DAE27BA565200274ED4 /* HammerGameViewController.swift in Sources */,
+				640CA84327B6744E004BA167 /* ChooseLevelViewController.swift in Sources */,
 				64342AF027B3802200763950 /* AppDelegate.swift in Sources */,
+				646E1E8F27B52EBB007237A0 /* MultiplicationTableViewController.swift in Sources */,
 				64342AF227B3802200763950 /* SceneDelegate.swift in Sources */,
+				6413CCF527BB762500CB4D40 /* ChoosePlayersViewController.swift in Sources */,
+				64342B0427B3887B00763950 /* MemoryGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
